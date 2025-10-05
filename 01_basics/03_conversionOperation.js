@@ -34,3 +34,21 @@ console.log("\n*****\n"+typeof someNumber)
 
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+/* ***********OPERATIONS****************** */
+console.log("\n***********OPERATIONS******************\n")
+let value = 3
+let neValue = -value
+console.log(neValue)
+
+//BASIC MATHS OPERATIONS
+
+console.log("\n//BASIC MATHS OPERATIONS")
+console.log(2+3)
+console.log(2-3)
+console.log(2*3)
+console.log(2**3) //power
+console.log(2/3) //remainder
+
+
