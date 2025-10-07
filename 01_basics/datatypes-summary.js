@@ -66,3 +66,32 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+
+/* ++++++++++++++ MEMORY ++++++++++++++++
+
+Stack memory(primitive datatype)
+Heap memory(non primitive datatype)
+
+*/
+//ex: stack
+let nameOne = "Hitesh"
+let nameTwo = nameOne
+nameTwo = "Raman"
+
+console.log(nameOne)
+console.log(nameTwo)
+
+//ex:Heap
+
+let obj1 = {
+    name: "Naren",
+    email:"naren@example.com"
+
+}
+
+let obj2 = obj1
+
+obj2.email = "naren@gmail.com"
+console.log(obj1.email)
+console.log(obj2.email)
